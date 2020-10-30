@@ -9,15 +9,17 @@ path = 'westerns.txt'
 with open(path) as textFile:
     westernText = textFile.read()
 
+# Remove all line breaks from the text
+westernText = westernText.replace('\r', ' ').replace('\n', ' ').replace('"', " ").replace('.', ' ').replace(';', ' ').replace(',', '').replace('_', "").replace('  ', ' ')
+
 # Split the text into individual words, formed as a list. 
 # '\W+' is a regular expression targeting words with one or more characters
-textAsList = [
-    word
-    for word in regex.split('\W+', westernText)
-    if word != ''
-]
+# textAsList = [word for word in regex.split('\W+', westernText) ]
 
-# Create graph.
+# Split the text into word couplets, formed as a list
+textAsList = [word for word in regex.split(' ', westernText) ]
+
+# Create the Dictionary
 westernMarkovDictionary = defaultdict(lambda: defaultdict(int))
 
 #Start the last word as the first word in the list, make it lowercase.
