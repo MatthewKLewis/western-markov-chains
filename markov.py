@@ -39,7 +39,7 @@ lastWord = sampleString
 
 # from 0 to n, the string is appended with a random choice from potential following words
 i = 0
-while i < 40:
+while i < 80:
     tempWord = random.choice(list(westernMarkovDictionary[lastWord].keys()))
     sampleString += ' ' + tempWord
     lastWord = tempWord

@@ -1,2 +1,4 @@
 # Western Markov Chain Sentences
-When I learned how simple Markov Chain algorithms were, I had to make one. As of Oct 13th 2020, I'm reading Blood Meridian by Cormac McCarthy, so I wanted to try to generate text in that flavor. 
+When I learned how simple Markov Chain algorithms were, I had to make one. As of Oct 13th 2020, I'm reading Blood Meridian by Cormac McCarthy, so I wanted to try to generate text in that flavor:
+
+"step was darkly defined the sublime utopia of combats without interruption troubled the congregation uttered these critical point: at short he added-- strike eight in eight in young pale virgin accompanies him then doubtless existed but treated me señor? he accuses you coward instead of ordinary life abandons it fell in armed like their panting with him but unscrupulous in favour us! the powder magazines which offered a long although still silent  xvi  he dealt stroke he loses itself"
